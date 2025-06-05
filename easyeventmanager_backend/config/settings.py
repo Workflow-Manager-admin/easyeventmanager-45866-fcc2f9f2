@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'corsheaders',
+    'api',  # Added to recognize the app containing the Event model
 ]
 
 MIDDLEWARE = [
